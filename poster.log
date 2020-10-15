@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.14)  14 OCT 2020 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.14)  15 OCT 2020 20:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1114,7 +1114,7 @@ Package pdftex.def Info: pic1/log.png  used on input line 185.
 File: pic1/count all.png Graphic file (type png)
 <use pic1/count all.png>
 Package pdftex.def Info: pic1/count all.png  used on input line 185.
-(pdftex.def)             Requested size: 537.7571pt x 558.96164pt.
+(pdftex.def)             Requested size: 645.31508pt x 670.76495pt.
 <pic1/weather.png, id=65, 395.4775pt x 249.93375pt>
 File: pic1/weather.png Graphic file (type png)
 <use pic1/weather.png>
@@ -1133,73 +1133,73 @@ Package pdftex.def Info: pic1/three tahw2.png  used on input line 217.
 <pic1/three hour1.png, id=74, 756.8275pt x 443.6575pt>
 File: pic1/three hour1.png Graphic file (type png)
 <use pic1/three hour1.png>
-Package pdftex.def Info: pic1/three hour1.png  used on input line 247.
+Package pdftex.def Info: pic1/three hour1.png  used on input line 249.
 (pdftex.def)             Requested size: 354.52565pt x 207.82854pt.
 <pic1/three hour3.png, id=75, 735.74875pt x 430.60875pt>
 File: pic1/three hour3.png Graphic file (type png)
 <use pic1/three hour3.png>
-Package pdftex.def Info: pic1/three hour3.png  used on input line 247.
+Package pdftex.def Info: pic1/three hour3.png  used on input line 249.
 (pdftex.def)             Requested size: 354.52565pt x 207.49802pt.
 <pic1/three hour2.png, id=76, 775.89874pt x 501.875pt>
 File: pic1/three hour2.png Graphic file (type png)
 <use pic1/three hour2.png>
-Package pdftex.def Info: pic1/three hour2.png  used on input line 247.
+Package pdftex.def Info: pic1/three hour2.png  used on input line 249.
 (pdftex.def)             Requested size: 354.52565pt x 229.31837pt.
 
-Overfull \hbox (2.52058pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.52058pt too wide) in paragraph at lines 249--249
 $[]$ $[]$ $[]$ 
  []
 
 <pic1/hot.png, id=77, 2168.1pt x 867.24pt>
 File: pic1/hot.png Graphic file (type png)
 <use pic1/hot.png>
-Package pdftex.def Info: pic1/hot.png  used on input line 247.
-(pdftex.def)             Requested size: 429.71912pt x 171.88344pt.
+Package pdftex.def Info: pic1/hot.png  used on input line 249.
+(pdftex.def)             Requested size: 644.59508pt x 257.83177pt.
 Package epstopdf Info: Source file: <logos/tulip-wordmark.eps>
-(epstopdf)                    date: 2020-08-27 06:08:21
+(epstopdf)                    date: 2020-10-15 12:12:32
 (epstopdf)                    size: 370272 bytes
 (epstopdf)             Output file: <logos/tulip-wordmark-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-09 14:50:31
+(epstopdf)                    date: 2020-10-15 12:12:32
 (epstopdf)                    size: 29354 bytes
 (epstopdf)             Command: <repstopdf --outfile=logos/tulip-wordmark-eps-converted-to.pdf logos/tulip-wordmark.eps>
-(epstopdf)             \includegraphics on input line 322.
+(epstopdf)             \includegraphics on input line 318.
 Package epstopdf Info: Output file is already uptodate.
 <logos/tulip-wordmark-eps-converted-to.pdf, id=92, 954.56625pt x 160.6pt>
 File: logos/tulip-wordmark-eps-converted-to.pdf Graphic file (type pdf)
 <use logos/tulip-wordmark-eps-converted-to.pdf>
-Package pdftex.def Info: logos/tulip-wordmark-eps-converted-to.pdf  used on input line 322.
+Package pdftex.def Info: logos/tulip-wordmark-eps-converted-to.pdf  used on input line 318.
 (pdftex.def)             Requested size: 682.86613pt x 114.88693pt.
 
-Overfull \hbox (0.53442pt too wide) in paragraph at lines 322--322
+Overfull \hbox (0.53442pt too wide) in paragraph at lines 318--318
  [][] 
  []
 
 
-Overfull \hbox (5.52335pt too wide) in paragraph at lines 322--322
+Overfull \hbox (5.52335pt too wide) in paragraph at lines 318--318
 []$[]$ $[]$ 
  []
 
 [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pic1/a.png (PNG copy)> <./pic1/count.png> <./pic1/count2.png> <./pic1/log.png> <./pic1/count all.png> <./pic1/weather.png> <./pic1/three tahw1 (1).png> <./pic1/three tahw2.png> <./pic1/three hour1.png> <./pic1/three hour3.png> <./pic1/three hour2.png> <./pic1/hot.png> <./logos/tulip-wordmark-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 326.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 326.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25048 strings out of 480608
- 510566 string characters out of 5907536
- 970374 words of memory out of 5000000
- 40362 multiletter control sequences out of 15000+600000
- 609594 words of font info for 72 fonts, out of 8000000 for 9000
+ 25047 strings out of 480608
+ 510546 string characters out of 5907536
+ 970470 words of memory out of 5000000
+ 40361 multiletter control sequences out of 15000+600000
+ 606413 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,10n,87p,785b,1474s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/kurier/mi-kurier.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/kurier/rm-kurier.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/kurier/ts1-kurier.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/kurier/ec-kurier-sc.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/kurier/ec-kurier.enc}<c:/texlive/2020/texmf-dist/fonts/type1/nowacki/kurier/kurierb.pfb><c:/texlive/2020/texmf-dist/fonts/type1/nowacki/kurier/kurierr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/nowacki/kurier/kurierri.pfb>
-Output written on poster.pdf (1 page, 664513 bytes).
+Output written on poster.pdf (1 page, 657238 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  75 compressed objects within 1 object stream
