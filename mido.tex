@@ -451,9 +451,13 @@ The bike-sharing system is a way to rent bikes through a city-wide network of ki
       \end{itemize} 
         \begin{figure}
           \centering
-          \includegraphics[height=0.5\textwidth]{pic/hot (1).eps}
+          \includegraphics[height=0.3\textwidth]{pic/hot (1).eps}
           \centering
         \end{figure} 
+        \begin{itemize}
+        
+          \item After all kinds of analysis, we will consider the time periods, temp, humidity, year, month, season, weather grade, windspeed, day of the week, whether there is a workingday or not and whether there is a holiday as characteristic values here.
+      \end{itemize} 
     }
     \end{center}
  
@@ -461,6 +465,30 @@ The bike-sharing system is a way to rent bikes through a city-wide network of ki
 
 \end{slide}
 %%
+
+\begin{slide}{Build Model}
+  \begin{center}
+  
+  {
+  \begin{itemize}
+  \item 
+  1.Separate the training set and test set.\\
+  2Remove unwanted eigenvalues:'casual','count','datetime','registered','date','atemp','month','year','season','weather'\\
+  3.Cross validation is used to determine the optimal parameters.\\
+  4.View the selected optimal parameters:{'max_depth': 20, 'n_estimators': 150}\\
+  5.Apply the optimal parameters to the model, it can be obtained\\
+  Accuracy on test set:  0.6945996275605214\\
+  Recall rate on test set: 0.7379725915789399\\
+  \end{itemize}
+  }
+  
+  \end{center}
+  \bigskip
+  \begin{center}
+  
+  \end{center}
+  \bigskip
+\end{slide}
 %%==========================================================================================
 
 

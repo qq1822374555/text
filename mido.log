@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=latex 2020.9.14)  15 OCT 2020 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=latex 2020.9.14)  16 OCT 2020 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1793,21 +1793,26 @@ File: pic/three hour3.eps Graphic file (type eps)
 File: pic/three hour2 (1).eps Graphic file (type eps)
  <pic/three hour2 (1).eps> [12]
 File: pic/hot (1).eps Graphic file (type eps)
- <pic/hot (1).eps> [13] [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 491.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 491.
+ <pic/hot (1).eps> [13]
+Overfull \hbox (4.8172pt too wide) in paragraph at lines 491--491
+\T1/fnc/m/n/14.4 ues:'casual','count','datetime','registered','date','atemp','month','year','season','weather'  
+ []
+
+[14] [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 519.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 519.
  (./mido.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 491.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 491.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 491.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 519.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 519.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 519.
  ) 
 Here is how much of TeX's memory you used:
- 47386 strings out of 480609
- 1028518 string characters out of 5907562
+ 47389 strings out of 480609
+ 1028550 string characters out of 5907562
  1584685 words of memory out of 5000000
- 62241 multiletter control sequences out of 15000+600000
+ 62244 multiletter control sequences out of 15000+600000
  557454 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,9n,98p,2365b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on mido.dvi (14 pages, 93976 bytes).
+Output written on mido.dvi (15 pages, 105104 bytes).
