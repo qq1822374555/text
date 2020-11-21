@@ -180,7 +180,15 @@
     \end{itemize}
     \begin{minipage}{1\linewidth}
         \centering
-        \includegraphics[width=0.6\textwidth]{pic1/count all.png} 
+        \includegraphics[width=0.5\textwidth]{pic1/count all.png} 
+    \end{minipage}
+    \begin{itemize}                            
+        \item
+        The impact of weather
+    \end{itemize}
+    \begin{minipage}{1\linewidth}
+        \centering
+        \includegraphics[width=0.4\textwidth]{pic1/weather.png} 
     \end{minipage}
 }
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
@@ -192,15 +200,7 @@
 
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 \block{Data Analysis}{
-    \begin{itemize}                            
-        \item
-        The impact of weather
-    \end{itemize}
-    \begin{minipage}{1\linewidth}
-        \centering
-        \includegraphics[width=0.5\textwidth]{pic1/weather.png} 
-    \end{minipage}
-
+    
     \begin{itemize}                            
         \item
         The impact of temp,atemp,humidity,windspeed
@@ -249,7 +249,20 @@
 }
 
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
+\block{Build Model}{
 
+\begin{description}
+    \item[]
+    1.Separate the training set and test set.\\
+    2.Remove unwanted eigenvalues:'casual','count','datetime','registered','date','atemp','month','year','season','weather'\\
+    3.Cross validation is used to determine the optimal parameters.\\
+    4.View the selected optimal parameters:{max depth: 20, n estimators: 150}\\
+    5.Apply the optimal parameters to the model, it can be obtained\\
+    Accuracy on test set : 0.6945996275605214
+\end{description}
+
+
+}
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 
 
@@ -302,7 +315,7 @@ Acknowledgement
 %\colorlet{noteframecolor}{blue!20}
 \colorlet{notebgcolor}{blue!20}
 \colorlet{notefrcolor}{blue!20}
-\note[targetoffsetx=-13cm, targetoffsety=-12cm,rotate=0,angle=180,radius=8cm,width=.96\textwidth,innersep=.4cm]
+\note[targetoffsetx=-13cm, targetoffsety=-13cm,rotate=0,angle=180,radius=8cm,width=.96\textwidth,innersep=.4cm]
 {
 \begin{minipage}{0.3\linewidth}
 \centering
@@ -312,7 +325,7 @@ Acknowledgement
 { \centering
  The $11^{th}$ International Conference on Knowledge Science,
   Engineering and Management (KSEM 2018),
-  17-19/08/2018, Changchun, China
+  17-16/20/2020,Xi'an, China
 }
 \end{minipage}
 }

@@ -1,5 +1,0 @@
-\pdcontentsline{0}{2}{Introduction}
-\pdcontentsline{0}{3}{Data Description}
-\pdcontentsline{0}{4}{Data Visualization}
-\pdcontentsline{0}{13}{Build Model}
-\pdcontentsline{0}{14}{Conclution}
