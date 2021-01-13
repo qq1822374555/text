@@ -228,23 +228,22 @@ Given the name of the condiment, predict the cuisine to which the dish belongs.
         We can get the data set of dish names, including 39774 training data and 9944 test samples.
         \item To see the distribution of our data set and the total variety of dishes, we printed out some of the data samples.
       \end{itemize}  
+      
       \begin{figure}
         \centering
-        \includegraphics[width=0.9\textwidth]{pic01/a.eps}
-        \begin{itemize}
-          \item
-          Total dish classification\\
-          There are 20 dishes in total, which are:
-          ['brazilian' 'british' 'cajun_creole' 'chinese' 'filipino' 'french'
-           'greek' 'indian' 'irish' 'italian' 'jamaican' 'japanese' 'korean'
-           'mexican' 'moroccan' 'russian' 'southern_us' 'spanish' 'thai'
-           'vietnamese']
-          
-        \end{itemize}  
+        \includegraphics[width=0.9\textwidth]{pic01/a .eps}
       \end{figure}
-    
-
+      \begin{itemize}
+        \item
+        Total dish classification\\
+        There are 20 dishes in total, which are:
+        ['brazilian' 'british' 'cajun_creole' 'chinese' 'filipino' 'french'
+         'greek' 'indian' 'irish' 'italian' 'jamaican' 'japanese' 'korean'
+         'mexican' 'moroccan' 'russian' 'southern_us' 'spanish' 'thai'
+         'vietnamese']
         
+      \end{itemize}  
+    
        
     }
     \end{center}
@@ -270,18 +269,20 @@ Given the name of the condiment, predict the cuisine to which the dish belongs.
     {
       \begin{itemize}
       
-        \item The data set is divided into Features and Target Variables.\\
-        \item Features:'ingredients', we were given the names of the ingredients contained in each dish.
+        \item The data set is divided into Features and Target Variables.
+        \item Features:'ingredients', we were given the names of the ingredients contained in each dish;
         Target variable:'cuisine', is the classification of cuisines that we want to predict.
-        \item Extract the Feature of training data set into train_integredients variable
-              Extract the Target Variables into the train_Targets variable
+        \item Extract the Feature of training data set into train\_integredients variable
+              Extract the Target Variables into the train\_Targets variable
       \end{itemize} 
+      
+    
       \begin{figure}
         \centering
-        \includegraphics[width=0.7\textwidth]{pic01/b.eps} 
-      \end{figure}
-    
-
+  
+        \includegraphics[width=0.6\textwidth]{pic01/b.eps} 
+        
+      \end{figure}   
         
        
     }
@@ -304,13 +305,36 @@ Given the name of the condiment, predict the cuisine to which the dish belongs.
     {
       \begin{itemize}
       
-        \item What are the top 10 most frequently used seasonings.
+        \item What are the top 10 most frequently used ingredients?
+        \item What are the 10 most common ingredients in filipino,greek and Italian cuisine?
        
       \end{itemize} 
-     \begin{figure}
+           
+    
+      \begin{figure}
         \centering
-        \includegraphics[width=0.5\textwidth]{pic01/cooking.eps} 
-      \end{figure}
+        \begin{minipage}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.6\textwidth]{pic01/cooking.eps} 
+        \caption{sum}
+        \end{minipage}
+        \begin{minipage}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.6\textwidth]{pic01/filipino.eps}
+        \caption{filipino}
+        \end{minipage}
+        \begin{minipage}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.57\textwidth]{pic01/greek.eps}
+        \caption{greek}
+        \end{minipage}
+        \begin{minipage}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.57\textwidth]{pic01/italian.eps}
+        \caption{italian}
+        \end{minipage}
+      \end{figure}   
+        
     }
     \end{center}
   
@@ -324,26 +348,69 @@ Given the name of the condiment, predict the cuisine to which the dish belongs.
 %%
 %%==========================================================================================
 
+\begin{slide}{Data Cleaning}
+  \begin{center}
+  
+  {
+  \begin{itemize}
+  \item 
+  Since dishes contain a large number of ingredients, and since the same ingredients can vary in numbers, tenses, and so on, we considered sifting through a potatos to remove any such differences
+  \end{itemize}
+  }
+  \begin{figure}
+    \centering
+    \begin{minipage}[t]{1\textwidth}
+    \centering
+    \includegraphics[width=0.7\textwidth]{pic01/clean1.eps} 
+   
+    \end{minipage}
+    \begin{minipage}[t]{1\textwidth}
+    \centering
+    \includegraphics[width=0.7\textwidth]{pic01/clean2.eps}
+   
+    \end{minipage}
+  \end{figure}   
+    
+
+  \end{center}
+  \bigskip
+  \begin{center}
+  
+  \end{center}
+  \bigskip
+  
+  %%==========================================================================================
+  
+  %%==========================================================================================
+  
+  \end{slide}
+
 %%
-%%==========================================================================================
-
-%%==========================================================================================
-
-%%==========================================================================================
-
-%%==========================================================================================
-
-%%==========================================================================================
-
-%%==========================================================================================
-
-%%==========================================================================================
-
- 
-
-
-
-%%
+\begin{slide}{Feature extraction}
+  \begin{center}
+  
+  {
+  \begin{itemize}
+  \item 
+  We convert the ingredients of the dish into a numerical feature vector.Consider that most dishes include salt, water, sugar, butter, etc,We will consider weighting the seasonings according to the occurrence times of the seasonings, that is, the more the occurrence times of the condiments, the lower the discriminability of the condiments.The feature we adopt is TF-IDF.\\
+  \item
+  We can get the characteristics:\lbrack'greek','southern\_us','filipino','indian','indian',\\
+  'jamaican','spanish','italian','mexican','italian'\rbrack
+  \end{itemize}
+  }
+  
+  \end{center}
+  \bigskip
+  \begin{center}
+  
+  \end{center}
+  \bigskip
+  
+  %%==========================================================================================
+  
+  %%==========================================================================================
+  
+  \end{slide}
 
 \begin{slide}{Build Model}
   \begin{center}

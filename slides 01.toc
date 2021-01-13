@@ -2,4 +2,6 @@
 \pdcontentsline{0}{3}{Data Import And Introduction}
 \pdcontentsline{0}{4}{Analyze Data}
 \pdcontentsline{0}{5}{Data Visualization}
-\pdcontentsline{0}{6}{Build Model}
+\pdcontentsline{0}{6}{Data Cleaning}
+\pdcontentsline{0}{7}{Feature extraction}
+\pdcontentsline{0}{8}{Build Model}

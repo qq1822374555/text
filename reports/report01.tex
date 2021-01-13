@@ -1,0 +1,66 @@
+\documentclass{amsart}
+\synctex=1
+
+%=================================================================
+% 
+\newcount\DraftStatus  % 0 suppresses notes to selves in text
+\DraftStatus=1   % TODO: set to 0 for final version
+%=================================================================
+
+%=================================================================
+\usepackage{comment}
+%=================================================================
+%
+\includecomment{JournalOnly}  
+\includecomment{ConferenceOnly}  
+\includecomment{TulipStyle}
+%
+%=================================================================
+\input{preamble}
+
+
+%=================================================================
+%
+\begin{document}
+%
+%=================================================================
+%
+\title[A Short Running Title]{ Box office forecast}%
+
+\author{Jincai Ma}
+\address[A.~1]{School of Computer Science,\\ 
+Xi'an Shiyou University, Shaanxi 710065, China}%
+\email[A.~1]{xxx@tulip.academy}
+
+
+%\thanks{Thanks to \ldots}%
+\subjclass{Forecast use of a city bikeshare system}%
+\date{\gitAuthorDate}%
+
+\begin{abstract}
+    Bike-sharing refers to the bicycle sharing services provided by enterprises in campuses, subway stations, bus stations, residential areas, business districts and public service areas. It is a time-sharing model and a new green and environment-friendly sharing economy.
+In essence, bike-sharing is a new type of transportation rental business -- bicycle rental business, which mainly relies on the carrier of (bicycle) bicycles.Can make full use of the city due to rapid economic development caused by the sluggish bicycle travel;Maximize the public road pass rate.
+The purpose of this project is to predict the demand for bike rental in the D.c. D.C. bike-sharing program by combining historical weather data on bike-sharing usage patterns.\\
+    
+\end{abstract}
+
+\maketitle
+\tableofcontents
+
+\newpage
+%=================================================================
+
+\input{mainbody}
+
+% ----------------------------------------------------------------
+\newpage
+\bibliography{tuliplab,yourbib}
+% TODO: you should change this yourbib into a proper bib file name
+
+\bibliographystyle{plainnat}
+%=================================================================
+
+\listoftodos
+
+\end{document}
+
