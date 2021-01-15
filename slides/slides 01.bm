@@ -2,6 +2,11 @@
 \pdbookmark{sec.0.slide}{sec.0}{3}{Data Import And Introduction}
 \pdbookmark{sec.0.slide}{sec.0}{4}{Analyze Data}
 \pdbookmark{sec.0.slide}{sec.0}{5}{Data Visualization}
-\pdbookmark{sec.0.slide}{sec.0}{6}{Data Cleaning}
-\pdbookmark{sec.0.slide}{sec.0}{7}{Feature extraction}
-\pdbookmark{sec.0.slide}{sec.0}{8}{Build Model}
+\pdbookmark{sec.1}{}{6}{Build Model}
+\pdbookmark{sec.1.slide}{sec.1}{7}{Data Cleaning}
+\pdbookmark{sec.1.slide}{sec.1}{8}{Feature extraction}
+\pdbookmark{sec.1.slide}{sec.1}{9}{Validation set partitioning}
+\pdbookmark{sec.1.slide}{sec.1}{10}{Training Model}
+\pdbookmark{sec.1.slide}{sec.1}{11}{The Results}
+\pdbookmark{sec.2}{}{12}{Model Predict}
+\pdbookmark{sec.2.slide}{sec.2}{13}{Predictive test set}

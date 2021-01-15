@@ -53,7 +53,7 @@
 \colorlet{backgroundcolor}{blue!10}
 
  % Title, Author, Institute
-\title{Group Outlying Aspects Mining}
+\title{What's Cooking?}
 \author{Jincai Ma}
 \institute{ Xi'an Shiyou University, China \\
 }
@@ -99,10 +99,14 @@
   	
     \begin{description}
       
-  	\item[The Data Source] The data comes from Kaggle https://www.kaggle.com/c/bike-sharing-demand
+  	\item[The Data Source] The data comes from Kaggle https://www.kaggle.com/c/whats-cooking.
   	
   	\item[Project Purpose] Use recipe ingredients to categorize the cuisine.\\
       Given the name of the condiment, predict the cuisine to which the dish belongs.
+    \item[Related Field Name Interpretation] In the dataset,  including the recipe ID, the dish, and the list of ingredients for each recipe (variable length).The data is stored in JSON format. \\
+    1.train.json- A training set that contains the recipe ID, dish type, and ingredient list\\
+    2.test.json- A test set containing a recipe ID and a list of ingredients\\
+    3.sample\_submission.csv- Properly formatted sample submission document
   	\end{description}
 
   	
@@ -111,18 +115,7 @@
 
 
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
-\block{Related Field Name Interpretation}{
 
-\begin{itemize}
-    \item
-    In the dataset,  including the recipe ID, the dish, and the list of ingredients for each recipe (variable length).The data is stored in JSON format. \\
-    1.train.json- A training set that contains the recipe ID, dish type, and ingredient list\\
-    2.test.json- A test set containing a recipe ID and a list of ingredients\\
-    3.sample\_submission.csv- Properly formatted sample submission document
-\end{itemize}
-
-
-}
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
@@ -158,22 +151,8 @@
         \item The data set is divided into Features and Target Variables.
         \item Features:'ingredients', we were given the names of the ingredients contained in each dish.
         Target variable:'cuisine', is the classification of cuisines that we want to predict.
-        \item Extract the Feature of training data set into train\_integredients variable,extract the Target Variables into the train\_Targets variable
+        
     \end{itemize}
-    \begin{minipage}{0.7\linewidth}
-        \centering
-        \includegraphics[width=0.7\textwidth]{pic1/2.png} 
-    \end{minipage}
-   
-   
-}
-
-% SECOND column
-\column{0.5}
- %Second column with first block's top edge aligned with with previous column's top.
-
-%%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
-\block{Data Analysis}{
     
     \begin{itemize}                            
         \item
@@ -182,79 +161,107 @@
     \end{itemize}
     \begin{minipage}{0.5\linewidth}
         \centering
-        \includegraphics[width=0.6\textwidth]{pic1/cooking.png} 
+        \includegraphics[width=0.5\textwidth]{pic1/cooking.png} 
     \end{minipage}
     \begin{minipage}{0.5\linewidth}
         \centering
-        \includegraphics[width=0.6\textwidth]{pic1/filipino.png} 
+        \includegraphics[width=0.5\textwidth]{pic1/filipino.png} 
     \end{minipage}
     \begin{minipage}{0.5\linewidth}
         \centering
-        \includegraphics[width=0.6\textwidth]{pic1/greek.png} 
+        \includegraphics[width=0.5\textwidth]{pic1/greek.png} 
     \end{minipage}
     \begin{minipage}{0.5\linewidth}
         \centering
-        \includegraphics[width=0.6\textwidth]{pic1/italian.png} 
+        \includegraphics[width=0.5\textwidth]{pic1/italian.png} 
     \end{minipage}
    
 }
-%%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
-% Second column - first block
 \block{Data cleaning}{
    
     \begin{itemize}                            
         \item
         Since dishes contain a large number of ingredients, and since the same ingredients can vary in numbers, tenses, and so on, we considered sifting through a potatos to remove any such differences
     \end{itemize}
-    \begin{minipage}{1\linewidth}
-        \centering
-        \includegraphics[width=0.8\textwidth]{pic1/clean1.png} 
-    \end{minipage}
-    \begin{minipage}{1\linewidth}
-        \centering
-        \includegraphics[width=0.8\textwidth]{pic1/clean2.png} 
-    \end{minipage}
+   
+    
 }
+% SECOND column
+\column{0.5}
+ %Second column with first block's top edge aligned with with previous column's top.
+
+%%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
+%%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
+% Second column - first block
 
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 \block{Feature extraction}{
    
-    \begin{itemize}                            
+    \begin{itemize}  
+                                  
         \item We convert the ingredients of the dish into a numerical feature vector.Consider that most dishes include salt, water, sugar, butter, etc,We will consider weighting the seasonings according to the occurrence times of the seasonings, that is, the more the occurrence times of the condiments, the lower the discriminability of the condiments.The feature we adopt is TF-IDF.
-        \item We can get the characteristics:\lbrack'greek','southern\_us','filipino','indian','indian',\\
-        'jamaican','spanish','italian','mexican','italian'\rbrack
+        \item We can get the top 5 characteristics:\lbrack'greek','southern\_us','filipino','indian','indian'\rbrack
+        \item The first five data in train\_tfidf:
+        \lbrack\lbrack0. 0. 0. ... 0. 0. 0.\rbrack\\
+        \lbrack0. 0. 0. ... 0. 0. 0.\rbrack\\
+        \lbrack0. 0. 0. ... 0. 0. 0.\rbrack\\
+        \lbrack0. 0. 0. ... 0. 0. 0.\rbrack\\
+        \lbrack0. 0. 0. ... 0. 0. 0.\rbrack\rbrack
     \end{itemize}
     
 }
 
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
-\block{Build Model}{
-
-\begin{description}
-    \item[]
-    1.Separate the training set and test set.\\
-    2.Remove unwanted eigenvalues:'casual','count','datetime','registered','date','atemp','month','year','season','weather'\\
-    3.Cross validation is used to determine the optimal parameters.\\
-    4.View the selected optimal parameters:{max depth: 20, n estimators: 150}\\
-    5.Apply the optimal parameters to the model, it can be obtained\\
-    Accuracy on test set : 0.6945996275605214
-\end{description}
-
-
+\block{Validation set partitioning}{
+   
+    \begin{itemize}  
+                                    
+       \item 
+        The training set is divided into a new training set and a validation set by calling train\_test\_split function, which is convenient for the subsequent accuracy observation of the model.
+       \item
+        
+        1.Use train\_tfidf and train\_targets as input variables for train\_test\_split\\
+        2.The test\_size is set to 0.2, 20$\%$ of the validation set is divided, and 80$\%$ of the data is reserved for the new training set.\\
+        3.Set the random\_state random seed to ensure that the same partition results are obtained every time you run it.
+     
+    \end{itemize}
+    
 }
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
-
+\block{raining Model}{
+   
+    \begin{itemize}  
+                                    
+        \item 
+        Invoke the logistic regression model in sklearn.
+       
+       \item 
+         1.GridSearchCV is imported from sklearn.model\_selection, and the parameters are automatically searched. As long as the parameters are typed in, the best results and parameters can be given. \\
+         2.Define the parameters variable: Create a dictionary for the C parameters, whose values are an array from 1 to 10;\\
+         3.Define the classifier variable: Create a classification function using the imported LogisticRegression;\\
+         4.Define Grid variables: Create a grid search object using the imported GridSearchCV;Pass the variables 'classifier', 'parameters' as arguments to the object constructor;
+         \item 
+         After the model training, we calculated the prediction results of the model on the validation set X\_VALID, and calculated the prediction accuracy of the model .
+         \item 
+         The score on the validation set is: 0.7958516656191075.
+    \end{itemize}
+    
+}
 
 % Second column - second block
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 \block[titlewidthscale=1, bodywidthscale=1]
-{Conclusion}
+{Predictive test set}
 {
-\begin{description}
-  \item[]
-  Through this Kaggle project, I practiced by myself to have a deeper understanding of data visualization and to explore the structure and rules of data by means of drawing and tabulating.
-
-\end{description}
+\begin{itemize} 
+  \item
+  Test set test\_tfidf is predicted by the model grid, and then the predicted results are viewed.\\
+  The predicted number of test sets is 9944  
+\end{itemize}
+\begin{minipage}{1\linewidth}
+    \flushleft
+    \includegraphics[width=0.5\textwidth]{pic1/result.png} 
+\end{minipage}
 }
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 
@@ -263,7 +270,7 @@
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 \colorlet{notebgcolor}{blue!20}
 \colorlet{notefrcolor}{blue!20}
-\note[targetoffsetx=8cm, targetoffsety=-4cm, angle=30, rotate=15,
+\note[targetoffsetx=8cm, targetoffsety=-5cm, angle=30, rotate=15,
 radius=2cm, width=.26\textwidth]{
 Acknowledgement
 \begin{itemize}
@@ -294,7 +301,7 @@ Acknowledgement
 %\colorlet{noteframecolor}{blue!20}
 \colorlet{notebgcolor}{blue!20}
 \colorlet{notefrcolor}{blue!20}
-\note[targetoffsetx=-13cm, targetoffsety=-18cm,rotate=0,angle=180,radius=8cm,width=.96\textwidth,innersep=.4cm]
+\note[targetoffsetx=-13cm, targetoffsety=-13cm,rotate=0,angle=180,radius=8cm,width=.96\textwidth,innersep=.4cm]
 {
 \begin{minipage}{0.3\linewidth}
 \centering

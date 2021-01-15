@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=latex 2020.11.21)  13 JAN 2021 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=latex 2020.11.21)  15 JAN 2021 19:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1801,24 +1801,31 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [6]
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 19.28804pt on input line 349.
+LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
+(Font)              scaled to size 19.28804pt on input line 349.
+ [7]
 File: pic01/clean1.eps Graphic file (type eps)
  <pic01/clean1.eps>
 File: pic01/clean2.eps Graphic file (type eps)
- <pic01/clean2.eps> [7] [8] [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 431.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 431.
+ <pic01/clean2.eps> [8] [9] [10] [11] [12] [13]
+File: pic01/result.eps Graphic file (type eps)
+ <pic01/result.eps> [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 511.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 511.
  (./slides 01.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 431.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 431.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 431.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 511.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 511.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 511.
  ) 
 Here is how much of TeX's memory you used:
- 47336 strings out of 480609
- 1027636 string characters out of 5907561
+ 47360 strings out of 480609
+ 1027936 string characters out of 5907561
  1584172 words of memory out of 5000000
- 62195 multiletter control sequences out of 15000+600000
- 557454 words of font info for 64 fonts, out of 8000000 for 9000
+ 62218 multiletter control sequences out of 15000+600000
+ 559965 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,9n,98p,2372b,847s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,9n,98p,2372b,874s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on "slides 01.dvi" (9 pages, 74216 bytes).
+Output written on "slides 01.dvi" (14 pages, 148612 bytes).

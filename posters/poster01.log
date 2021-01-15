@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.21)  22 DEC 2020 18:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.21)  15 JAN 2021 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1086,65 +1086,55 @@ LaTeX Info: Redefining \nameref on input line 72.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
-LaTeX Font Info:    Trying to load font information for TS1+kurier on input line 125.
+LaTeX Font Info:    Trying to load font information for TS1+kurier on input line 146.
  (d:/texlive/2020/texmf-dist/tex/latex/kurier/ts1kurier.fd
 File: ts1kurier.fd 2008/07/22 v0.995 font definition file for TS1/kurier (MW)
 )
-<pic1/1.png, id=53, 1162.3425pt x 224.84pt>
+<pic1/1.png, id=47, 1162.3425pt x 224.84pt>
 File: pic1/1.png Graphic file (type png)
 <use pic1/1.png>
-Package pdftex.def Info: pic1/1.png  used on input line 153.
+Package pdftex.def Info: pic1/1.png  used on input line 146.
 (pdftex.def)             Requested size: 1075.5142pt x 208.05951pt.
-<pic1/2.png, id=60, 1256.695pt x 752.8125pt>
-File: pic1/2.png Graphic file (type png)
-<use pic1/2.png>
-Package pdftex.def Info: pic1/2.png  used on input line 169.
-(pdftex.def)             Requested size: 526.99736pt x 315.68515pt.
-<pic1/cooking.png, id=67, 433.62pt x 289.08pt>
+<pic1/cooking.png, id=54, 433.62pt x 289.08pt>
 File: pic1/cooking.png Graphic file (type png)
 <use pic1/cooking.png>
-Package pdftex.def Info: pic1/cooking.png  used on input line 200.
-(pdftex.def)             Requested size: 322.29753pt x 214.87744pt.
-<pic1/filipino.png, id=69, 433.62pt x 289.08pt>
+Package pdftex.def Info: pic1/cooking.png  used on input line 179.
+(pdftex.def)             Requested size: 268.87854pt x 179.25862pt.
+<pic1/filipino.png, id=56, 433.62pt x 289.08pt>
 File: pic1/filipino.png Graphic file (type png)
 <use pic1/filipino.png>
-Package pdftex.def Info: pic1/filipino.png  used on input line 200.
-(pdftex.def)             Requested size: 322.29753pt x 214.87744pt.
-<pic1/greek.png, id=70, 433.62pt x 289.08pt>
+Package pdftex.def Info: pic1/filipino.png  used on input line 179.
+(pdftex.def)             Requested size: 268.87854pt x 179.25862pt.
+<pic1/greek.png, id=57, 433.62pt x 289.08pt>
 File: pic1/greek.png Graphic file (type png)
 <use pic1/greek.png>
-Package pdftex.def Info: pic1/greek.png  used on input line 200.
-(pdftex.def)             Requested size: 322.29753pt x 214.87744pt.
-<pic1/italian.png, id=71, 433.62pt x 289.08pt>
+Package pdftex.def Info: pic1/greek.png  used on input line 179.
+(pdftex.def)             Requested size: 268.87854pt x 179.25862pt.
+<pic1/italian.png, id=58, 433.62pt x 289.08pt>
 File: pic1/italian.png Graphic file (type png)
 <use pic1/italian.png>
-Package pdftex.def Info: pic1/italian.png  used on input line 200.
-(pdftex.def)             Requested size: 322.29753pt x 214.87744pt.
+Package pdftex.def Info: pic1/italian.png  used on input line 179.
+(pdftex.def)             Requested size: 268.87854pt x 179.25862pt.
 
-Overfull \hbox (6.62892pt too wide) in paragraph at lines 200--200
+Overfull \hbox (6.6289pt too wide) in paragraph at lines 179--179
 $[]$ $[]$
  []
 
 
-Overfull \hbox (6.62892pt too wide) in paragraph at lines 200--200
+Overfull \hbox (6.6289pt too wide) in paragraph at lines 179--179
 []$ $[]$ 
  []
 
-<pic1/clean1.png, id=78, 999.735pt x 154.5775pt>
-File: pic1/clean1.png Graphic file (type png)
-<use pic1/clean1.png>
-Package pdftex.def Info: pic1/clean1.png  used on input line 217.
-(pdftex.def)             Requested size: 859.45464pt x 132.89159pt.
-<pic1/clean2.png, id=79, 1240.635pt x 208.78pt>
-File: pic1/clean2.png Graphic file (type png)
-<use pic1/clean2.png>
-Package pdftex.def Info: pic1/clean2.png  used on input line 217.
-(pdftex.def)             Requested size: 859.45464pt x 144.63176pt.
 
-Overfull \hbox (431.76495pt too wide) in paragraph at lines 244--244
-\T1/kurier/m/n/29.86 2.Remove un-wanted eigen-val-ues:'casual','count','datetime','registered','date','atemp','month','year','season','weather' 
+Overfull \hbox (2.4377pt too wide) in paragraph at lines 212--212
+[]\T1/kurier/m/n/29.86 We can get the top 5 char-ac-ter-is-tics:['greek','southern_us','filipino','indian','indian'] 
  []
 
+<pic1/result.png, id=89, 1004.75375pt x 362.35374pt>
+File: pic1/result.png Graphic file (type png)
+<use pic1/result.png>
+Package pdftex.def Info: pic1/result.png  used on input line 265.
+(pdftex.def)             Requested size: 537.1571pt x 193.71634pt.
 Package epstopdf Info: Source file: <logos/tulip-wordmark.eps>
 (epstopdf)                    date: 2020-10-15 12:12:32
 (epstopdf)                    size: 370272 bytes
@@ -1152,47 +1142,47 @@ Package epstopdf Info: Source file: <logos/tulip-wordmark.eps>
 (epstopdf)                    date: 2020-10-15 12:12:32
 (epstopdf)                    size: 29354 bytes
 (epstopdf)             Command: <repstopdf --outfile=logos/tulip-wordmark-eps-converted-to.pdf logos/tulip-wordmark.eps>
-(epstopdf)             \includegraphics on input line 310.
+(epstopdf)             \includegraphics on input line 317.
 Package epstopdf Info: Output file is already uptodate.
-<logos/tulip-wordmark-eps-converted-to.pdf, id=106, 954.56625pt x 160.6pt>
+<logos/tulip-wordmark-eps-converted-to.pdf, id=98, 954.56625pt x 160.6pt>
 File: logos/tulip-wordmark-eps-converted-to.pdf Graphic file (type pdf)
 <use logos/tulip-wordmark-eps-converted-to.pdf>
-Package pdftex.def Info: logos/tulip-wordmark-eps-converted-to.pdf  used on input line 310.
+Package pdftex.def Info: logos/tulip-wordmark-eps-converted-to.pdf  used on input line 317.
 (pdftex.def)             Requested size: 682.86613pt x 114.88693pt.
 
-Overfull \hbox (0.53442pt too wide) in paragraph at lines 310--310
+Overfull \hbox (0.53442pt too wide) in paragraph at lines 317--317
  [][] 
  []
 
 
-Overfull \hbox (5.52335pt too wide) in paragraph at lines 310--310
+Overfull \hbox (5.52335pt too wide) in paragraph at lines 317--317
 []$[]$ $[]$ 
  []
 
 [1
 
-{d:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pic1/1.png (PNG copy)> <./pic1/2.png (PNG copy)> <./pic1/cooking.png> <./pic1/filipino.png> <./pic1/greek.png> <./pic1/italian.png> <./pic1/clean1.png (PNG copy)> <./pic1/clean2.png (PNG copy)> <./logos/tulip-wordmark-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
+{d:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pic1/1.png (PNG copy)> <./pic1/cooking.png> <./pic1/filipino.png> <./pic1/greek.png> <./pic1/italian.png> <./pic1/result.png (PNG copy)> <./logos/tulip-wordmark-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
  (./poster01.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
 Package rerunfilecheck Info: File `poster01.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25025 strings out of 480608
- 509988 string characters out of 5907535
- 989100 words of memory out of 5000000
- 40341 multiletter control sequences out of 15000+600000
+ 25013 strings out of 480608
+ 509810 string characters out of 5907535
+ 985416 words of memory out of 5000000
+ 40331 multiletter control sequences out of 15000+600000
  606413 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,10n,87p,787b,1486s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,10n,87p,787b,1482s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2020/texmf-dist/fonts/enc/dvips/kurier/mi-kurier.enc}{d:/texlive/2020/texmf-dist/fonts/enc/dvips/kurier/rm-kurier.enc}{d:/texlive/2020/texmf-dist/fonts/enc/dvips/kurier/ts1-kurier.enc}{d:/texlive/2020/texmf-dist/fonts/enc/dvips/kurier/ec-kurier-sc.enc}{d:/texlive/2020/texmf-dist/fonts/enc/dvips/kurier/ec-kurier.enc}<d:/texlive/2020/texmf-dist/fonts/type1/nowacki/kurier/kurierb.pfb><d:/texlive/2020/texmf-dist/fonts/type1/nowacki/kurier/kurierr.pfb><d:/texlive/2020/texmf-dist/fonts/type1/nowacki/kurier/kurierri.pfb>
-Output written on poster01.pdf (1 page, 310512 bytes).
+Output written on poster01.pdf (1 page, 229960 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 146 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 346 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
 

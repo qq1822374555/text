@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.11.21)  22 DEC 2020 20:29
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.11.21)  15 JAN 2021 20:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1163,12 +1163,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--44
-
- []
-
-(./report01.toc)
+ (./report01.toc)
 \tf@toc=\write7
 \openout7 = `report01.toc'.
 
@@ -1179,15 +1174,13 @@ File: pic01/b.eps Graphic file (type eps)
 <pic01/b.eps>
 File: pic01/cooking.eps Graphic file (type eps)
 <pic01/cooking.eps>
-File: pic01/filipino.eps Graphic file (type eps)
-<pic01/filipino.eps>
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
 File: logos/tulip-logo.eps Graphic file (type eps)
 <logos/tulip-logo.eps>
 
@@ -1198,6 +1191,8 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
+File: pic01/filipino.eps Graphic file (type eps)
+<pic01/filipino.eps>
 File: pic01/greek.eps Graphic file (type eps)
 <pic01/greek.eps>
 File: pic01/italian.eps Graphic file (type eps)
@@ -1206,73 +1201,59 @@ File: pic01/clean1.eps Graphic file (type eps)
 <pic01/clean1.eps>
 File: pic01/clean2.eps Graphic file (type eps)
 <pic01/clean2.eps>
-File: pic/weather.eps Graphic file (type eps)
-<pic/weather.eps>
 
-Overfull \hbox (12.59557pt too wide) in paragraph at lines 97--98
- [][] 
+Overfull \hbox (8.81pt too wide) in paragraph at lines 89--90
+[]\TU/lmr/m/n/10 We convert the ingredients of the dish into a numerical feature vector.Consider
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (35.47pt too wide) in paragraph at lines 90--91
+[]\TU/lmr/m/n/10 We can get the top 5 characteristics:[’greek’,’southern_us’,’filipino’,’indian’,’indian’] 
+ []
 
 File: logos/tulip-logo.eps Graphic file (type eps)
 <logos/tulip-logo.eps>
- [3]
-File: pic/three hour1 (2).eps Graphic file (type eps)
-<pic/three hour1 (2).eps>
-File: pic/three hour3.eps Graphic file (type eps)
-<pic/three hour3.eps>
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 103--107
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+File: pic01/result.eps Graphic file (type eps)
+<pic01/result.eps>
+)
 File: logos/tulip-logo.eps Graphic file (type eps)
 <logos/tulip-logo.eps>
  [4]
-File: pic/three hour2 (1).eps Graphic file (type eps)
-<pic/three hour2 (1).eps>
-File: pic/hot (1).eps Graphic file (type eps)
-<pic/hot (1).eps>
-
-Overfull \hbox (143.36pt too wide) in paragraph at lines 156--163
-\TU/lmr/m/n/10 2Remove unwanted eigenvalues:’casual’,’count’,’datetime’,’registered’,’date’,’atemp’,’month’,’year’,’season’,’weather’ 
- []
-
-File: logos/tulip-logo.eps Graphic file (type eps)
-<logos/tulip-logo.eps>
-[5])
-File: logos/tulip-logo.eps Graphic file (type eps)
-<logos/tulip-logo.eps>
- [6]
 No file report01.bbl.
 (./report01.tdo)
 \tf@tdo=\write8
 \openout8 = `report01.tdo'.
 
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 File: logos/tulip-logo.eps Graphic file (type eps)
 <logos/tulip-logo.eps>
- [7]
+ [5]
 No complaints by nag.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
 (./report01.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 65.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 62.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
 Package rerunfilecheck Info: File `report01.out' has not changed.
 (rerunfilecheck)             Checksum: CB4262F36C6A49EADC7D071974D27389;272.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
  ) 
 Here is how much of TeX's memory you used:
- 34364 strings out of 479418
- 673937 string characters out of 5888104
+ 34302 strings out of 479418
+ 672080 string characters out of 5888104
  1076826 words of memory out of 5000000
- 51041 multiletter control sequences out of 15000+600000
- 538986 words of font info for 61 fonts, out of 8000000 for 9000
+ 50989 multiletter control sequences out of 15000+600000
+ 538970 words of font info for 59 fonts, out of 8000000 for 9000
  1509 hyphenation exceptions out of 8191
- 71i,13n,102p,965b,826s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,102p,965b,828s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report01.pdf (7 pages).
+Output written on report01.pdf (5 pages).
