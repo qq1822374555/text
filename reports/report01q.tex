@@ -1,0 +1,63 @@
+\documentclass{amsart}
+\synctex=1
+
+%=================================================================
+% 
+\newcount\DraftStatus  % 0 suppresses notes to selves in text
+\DraftStatus=1   % TODO: set to 0 for final version
+%=================================================================
+
+%=================================================================
+\usepackage{comment}
+%=================================================================
+%
+\includecomment{JournalOnly}  
+\includecomment{ConferenceOnly}  
+\includecomment{TulipStyle}
+%
+%=================================================================
+\input{preamble}
+
+
+%=================================================================
+%
+\begin{document}
+%
+%=================================================================
+%
+\title[A Short Running Title]{ What's Cooking}%
+
+\author{Jincai Ma}
+
+
+
+%\thanks{Thanks to \ldots}%
+\subjclass{What's Cooking}%
+\keywords{Application software learning, Kaggle topic selection}%
+\date{\gitAuthorDate}%
+
+\begin{abstract}
+    The project（What's Cooking） will use the data set provided by Yummly to train and test a model and test its performance and predictive power.A good model trained by this data can be used  cuisine.The dataset for this project is from the Kaggle What's Cooking competition.A total of 39,774/9,944 training and test data points, covering information on Chinese, Vietnamese, French, etc.
+    
+\end{abstract}
+
+\maketitle
+\tableofcontents
+
+\newpage
+%=================================================================
+
+\input{mainbodyq}
+
+% ----------------------------------------------------------------
+\newpage
+\bibliography{tuliplab,yourbib}
+% TODO: you should change this yourbib into a proper bib file name
+
+\bibliographystyle{plainnat}
+%=================================================================
+
+\listoftodos
+Jupyter Notebook,Visual Studio Code,Latex,Git.
+\end{document}
+
